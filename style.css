@@ -50,28 +50,21 @@ a .fa-arrows-left-right {
 main {
     display: flex;
     gap: 10px;
-     
-
+   
 }
 .left-side {
     background-color: #161616;
     width: 312px;
-    height: auto;
+    height:312px;
     padding: 20px;
     border-radius: 10px;
 }
-ul {
-   
  
-    
-}
 ul li {
     list-style: none;
     padding: 30px;
     margin-top: 20px;
-    
-   
-
+  
 }
 ul .white {
     background-color: #ffffff;
@@ -93,8 +86,8 @@ li a {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 24px;
-
-    
+    margin-bottom: 50px;
+ 
 }
 .right-side p {
     width: 80%;
@@ -105,8 +98,7 @@ article {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 10px;
-    
-
+   
 }
 article .right-side-img {
     width: 312px;
@@ -115,7 +107,6 @@ article .right-side-img {
 }
 
 article button {
-    /* display:inline-block; */
     width: 100px;
     height: 32px;
     margin-top: 10px;
@@ -146,16 +137,13 @@ footer .title {
 
 
 footer .menu  {
-    /* display: flex; */
-    /* justify-content: center; */
     text-align: center;
-
-     
+ 
 }
 
 footer .menu ul li{
     display: inline-block;
-     
+   
 }
 
 .menu li  a{
@@ -165,6 +153,8 @@ footer .menu ul li{
 
 }
 /* footer style end */
+
+/* tablet midea query */
 @media only screen and (min-width:689px) and  (max-width:992px) {
     main {
         width:100% ;
@@ -180,15 +170,15 @@ footer .menu ul li{
     }
     .left-side ul li {
         display: inline-block;
-       
-        
-
+      
     }
     .right-side{
         grid-template-columns: repeat(2,1fr);
         padding: 10px 30px;
     }
 }
+/* mobail media query */
+
 @media screen and (max-width:688px) {
     .banner {
         display: flex;
