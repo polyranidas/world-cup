@@ -192,12 +192,13 @@ footer .menu ul li{
     }
     .left-side {
         width: 100%;
-        height: auto;
+        height:  auto;
         padding: 10px;
         text-align: center;
     }
     .left-side ul li {
-        display: inline-block;
+        display:block;
+        justify-content: space-between;
        
         
 
