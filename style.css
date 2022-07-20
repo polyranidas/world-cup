@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+     
+}
+/* header style start */
+.banner {
+    display: flex;
+    background-color: #161616;
+    color: #ffffff;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 130px;
+    transition: height 2s ease 2s
+}
+.banner-info {
+    width: 50%;
+    padding: 100px;
+}
+.banner-img {
+    width: 50%;
+    padding: 100px;
+}
+.banner-info p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.banner-info a {
+    text-decoration: none;
+    display: inline-block;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+a .fa-arrows-left-right {
+     padding-left: 5px;
+}
+.banner:hover{
+    background-color: rgb(11, 70, 70);
+    height: 600px;
+     
+}
+/* header style end */
+
+/* main style start */
+main {
+    display: flex;
+     
+
+}
+.left-side {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    padding: 20px;
+    border-radius: 10px;
+}
+ul {
+   
+ 
+    
+}
+ul li {
+    list-style: none;
+    padding: 30px;
+    margin-top: 20px;
+    
+   
+
+}
+ul .white {
+    background-color: #ffffff;
+    color: #161616;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+ul .red {
+    background: #DD0000;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+li a {
+    text-decoration: none;
+    display: inline-block;
+   
+}  
+.right-side {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 24px; */
+    margin-left: 20px;
+}
+article button {
+    display: block;
+    width: 100px;
+    height: 32px;
+    margin-top: 10px;
+}
+article p .fa-clock {
+    margin-right: 5px;
+    padding: 10px;;
+}
+article p .fa-message {
+    margin-right: 5px;
+    padding: 10px;
+}
+/* main start end */
+
+/* footer style start */
+footer {
+    background-color: #161616;
+}
+footer .title {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+
+}
+footer .menu ul {
+    display: flex;
+     
+}
+.menu li  a{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+/* footer style end */
